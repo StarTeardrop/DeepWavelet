@@ -72,7 +72,7 @@ To use Grad-CAM, run the following command:
 If running wrong, please chech `grad_cam_display.py` and modify the path of the weight file and the dataset path.
 
 After running the command, you can get a plt figure as:
-![Grad-CAM](https://cdn.jsdelivr.net/gh/StarTeardrop/DeepWavelet@main/Images/cam.png)
+![Grad CAM](https://cdn.jsdelivr.net/gh/StarTeardrop/DeepWavelet@main/Images/cam.png)
 
 
 
