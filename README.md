@@ -1,6 +1,6 @@
 # DeepWavelet: A Multimodal Wavelet-Based Network for Sonar-Inertial Odometry in Underwater Robots
 
-![DeepWavelet architecture](./Images/framework.png)
+![DeepWavelet architecture](https://cdn.jsdelivr.net/gh/StarTeardrop/DeepWavelet@main/Images/framework.png)
 
 ## Requirements
 ```
