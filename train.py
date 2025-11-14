@@ -24,7 +24,7 @@ warnings.filterwarnings("ignore")
 def collate_fn(batch):
     batch = [item for item in batch if item is not None and len(item) > 0]
     if len(batch) == 0:
-        return None  # 或 raise SkipBatchException
+        return None 
     return torch.utils.data.dataloader.default_collate(batch)
 
 
