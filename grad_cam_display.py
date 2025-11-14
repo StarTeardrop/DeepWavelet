@@ -13,7 +13,7 @@ warnings.filterwarnings("ignore")
 def collate_fn(batch):
     batch = [item for item in batch if item is not None and len(item) > 0]
     if len(batch) == 0:
-        return None  # 或 raise SkipBatchException
+        return None  
     return torch.utils.data.dataloader.default_collate(batch)
 
 
@@ -30,7 +30,7 @@ def visualize_feature_map_by_error(model, img1, img2, point1, point2, imu_sequen
     elif layer_name == 'high_layer':
         layer = model.sf.fuseFeature.outconv_bn_relu_H[0]
     elif layer_name == 'global_layer':
-        layer = model.sf.fuseFeature.outconv_bn_relu_local[0]  # global与local设置反了
+        layer = model.sf.fuseFeature.outconv_bn_relu_local[0] 
     elif layer_name == 'local_layer':
         layer = model.sf.fuseFeature.outconv_bn_relu_glb[0]
     elif layer_name == 'ddaf_layer':
