@@ -90,10 +90,3 @@ If you find this work useful in your research, please cite our paper:
   keywords={Sonar;Feature extraction;Accuracy;Autonomous underwater vehicles;Sonar measurements;Point cloud compression;Optimization;Pose estimation;Odometry;Robustness;DeepWavelet;Haar wavelet transform;multiscale dual-modal alignment filter (MDMAF);multimodal;sonar–inertial odometry (SIO)},
   doi={10.1109/JOE.2025.3630404}
 }
-
-
-
-
-
-
-
