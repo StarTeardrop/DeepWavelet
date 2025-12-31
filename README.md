@@ -76,6 +76,22 @@ After running the command, you can get a plt figure as:
 ![Grad CAM](Images/cam.png)
 
 
+## Citation
+If you find this work useful in your research, please cite our paper:
+@ARTICLE{11298152,
+  author={Bai, Jibo and Zhu, Daqi and Chen, Mingzhi},
+  journal={IEEE Journal of Oceanic Engineering}, 
+  title={DeepWavelet: A Multimodal Wavelet-Based Network for Sonar–Inertial Odometry in Underwater Robots}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-16},
+  keywords={Sonar;Feature extraction;Accuracy;Autonomous underwater vehicles;Sonar measurements;Point cloud compression;Optimization;Pose estimation;Odometry;Robustness;DeepWavelet;Haar wavelet transform;multiscale dual-modal alignment filter (MDMAF);multimodal;sonar–inertial odometry (SIO)},
+  doi={10.1109/JOE.2025.3630404}}
+
+
+
+
 
 
 
